@@ -35,3 +35,10 @@ Specifically for this deliverable we did the following:
 2.Using the information we’ve provided, apply PCA to reduce the dimensions to three principal components.
 3. Create a new DataFrame named pcs_df that includes the following columns, PC 1, PC 2, and PC 3, and uses the index of the crypto_df DataFrame as the index (see below).
 ![](threePCA.png?raw=true)
+
+## Deliverable 3: Clustering Cryptocurrencies Using K-means
+Specifically for this deliverable we did the following:
+
+1. Continue using the crypto_clustering.ipynb file that you used in Deliverable 2 to reduce the dataset to three dimensions.
+2. Using the pcs_df DataFrame, create an elbow curve using hvPlot to find the best value for K (see below).
+![](elbow_curve.png?raw=true)
