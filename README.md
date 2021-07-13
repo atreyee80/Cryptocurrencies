@@ -46,3 +46,4 @@ Specifically for this deliverable we did the following:
 4. Create a new DataFrame named clustered_df by concatenating the drop_CoinName and pcs_df DataFrames on the same columns. The index should be the same as the drop_CoinName DataFrame.
 5. Add the CoinName column that holds the names of the cryptocurrencies, which you created in Step 7 of Deliverable 1, to the clustered_df.
 6. Add another new column to the clustered_df named Class that holds the predictions, i.e., model.labels_, from Step 3 (see below).
+![](newdataframe.png?raw=true)
