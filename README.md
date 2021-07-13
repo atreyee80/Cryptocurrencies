@@ -47,3 +47,10 @@ Specifically for this deliverable we did the following:
 5. Add the CoinName column that holds the names of the cryptocurrencies, which you created in Step 7 of Deliverable 1, to the clustered_df.
 6. Add another new column to the clustered_df named Class that holds the predictions, i.e., model.labels_, from Step 3 (see below).
 ![](newdataframe.png?raw=true)
+
+## Deliverable 4: Visualizing Cryptocurrencies Results
+Specifically for this deliverable we did the following:
+
+1. Continue using the crypto_clustering.ipynb file from Deliverable 3 where you have predicted the K clusters for the cryptocurrencies’ data.
+2. Create a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three clusters from the clustered_df DataFrame (see below).
+![](3dscatter_PCA.png?raw=true)
