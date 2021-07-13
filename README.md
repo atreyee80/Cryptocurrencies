@@ -22,7 +22,7 @@ Personal GitHub account
 4. Remove rows that have at least one null value.
 5. Filter the drop_CoinName DataFrame so it only has rows where coins have been mined.
 6. Create a new DataFrame that holds only the cryptocurrency names, and use the drop_CoinName DataFrame index as the index for this new DataFrame.
-7.Remove the CoinName column from the drop_CoinName DataFrame since it's not going to be used on the clustering algorithm (see below).
+7. Remove the CoinName column from the drop_CoinName DataFrame since it's not going to be used on the clustering algorithm (see below).
 ![](dropcoinname.png?raw=true)
 8. Use the get_dummies() method to create variables for the two text features, Algorithm and ProofType, and store the resulting data in a new DataFrame named X.
 9. Use the StandardScaler fit_transform() function to standardize the features from the X DataFrame.
