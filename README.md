@@ -56,10 +56,10 @@ Specifically for this deliverable we did the following:
 ![](3dscatter_PCA.png?raw=true)
 3. Add the CoinName and Algorithm columns to the hover_name and hover_data parameters, respectively, so each data point shows the CoinName and Algorithm on hover.
 4. Create a table with tradable cryptocurrencies using the hvplot.table() function (see below).
-![](3dscatter_PCA.png?raw=true)
+![](tradable_cryp.png?raw=true)
 5. Print the total number of tradable cryptocurrencies in the clustered_df DataFrame.
 6. Use the MinMaxScaler().fit_transform method to scale the TotalCoinSupply and TotalCoinsMined columns between the given range of zero and one.
 7. Create a new DataFrame using the clustered_df DataFrame index that contains the scaled data you created in Step 5 (see below).
 8. Add the CoinName column from the clustered_df DataFrame to the new DataFrame.
 9. Add the Class column from the clustered_df DataFrame to the new DataFrame (see below).
-![](3dscatter_PCA.png?raw=true)
+![](min_max_df.png?raw=true)
