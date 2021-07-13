@@ -27,3 +27,10 @@ Personal GitHub account
 8. Use the get_dummies() method to create variables for the two text features, Algorithm and ProofType, and store the resulting data in a new DataFrame named X.
 9. Use the StandardScaler fit_transform() function to standardize the features from the X DataFrame.
 ![](standardscaler.png?raw=true)
+
+# Deliverable 2: Reducing Data Dimensions Using PCA
+Specifically for this deliverable we did the following:
+
+1. Continue using the crypto_clustering.ipynb file from Deliverable 1 where you’ve already performed the preprocessing steps.
+2.Using the information we’ve provided, apply PCA to reduce the dimensions to three principal components.
+3. Create a new DataFrame named pcs_df that includes the following columns, PC 1, PC 2, and PC 3, and uses the index of the crypto_df DataFrame as the index (see below).
