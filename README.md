@@ -63,3 +63,5 @@ Specifically for this deliverable we did the following:
 8. Add the CoinName column from the clustered_df DataFrame to the new DataFrame.
 9. Add the Class column from the clustered_df DataFrame to the new DataFrame (see below).
 ![](min_max_df.png?raw=true)
+10. Create an hvplot scatter plot with x="TotalCoinsMined", y="TotalCoinSupply", and by="Class", showing the CoinName when you hover over the the data point (see below)
+![](hvplot.png?raw=true)
